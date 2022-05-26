@@ -14,7 +14,7 @@ body {
     /* position: fixed; */
     /* position: sticky; */
 }
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     .top-container {
         width: 100%;
         height: auto;
@@ -51,7 +51,7 @@ a.man:hover {
     /* height: 500px; */
     /* align-content: center; */
 }
-@media (max-width: 800px) {
+@media (max-width: 375px) {
      .middle-container {
          flex-flow: wrap-reverse;
          align-content: center;
@@ -132,7 +132,7 @@ input#email {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     .lower-container {
         flex-flow: wrap-reverse;
         align-content: center;
@@ -235,7 +235,7 @@ span {
     /* box-sizing: border-box; */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 375px) {
     .lowest-container {
         flex-flow: wrap;
         align-content: center;
@@ -299,7 +299,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
  }
- @media (max-width: 800px) {
+ @media (max-width: 375px) {
     footer {
         flex-flow: wrap;
         align-content: flex-start;
