@@ -56,6 +56,7 @@ a.man:hover {
          flex-flow: wrap-reverse;
          align-content: center;
          align-items: center;
+         text-align: center;
      }
      .middle-container img {
          width: 100%;
