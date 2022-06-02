@@ -1,0 +1,266 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.nav-list{
+    margin-left: 800px;
+    margin-right: 0;
+}
+.nav-list nav ul{
+    display: flex;
+    align-items: baseline;
+    margin-right: 0;
+}
+.nav-list nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+.nav-list nav ul li a{
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+}
+.service-1{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+}
+.service-1-text{
+    width: 50%;
+    padding-top: 90px;
+    margin-left: 40px;
+}
+.service-1-text h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.service-1 p{
+    font-weight:bold;
+}
+.illus-1{
+    width: 50%;
+    margin-right: 45px;
+}
+.mail-input{
+    width: 45%;
+    height: 20px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 10px;
+    margin-right: 7px;
+}
+.mail-confirmation{
+    background-color:hsl(224, 93%, 58%) ;
+    color: white;
+    font-size: 12px;
+    font-family:'Open Sans', sans-serif;
+    padding: 9px;
+    width: 30%;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.mail-confirmation:hover{
+    background-color: hsl(224, 92%, 65%);
+}
+.service-2{
+    background-image: url(images/bg-curve-desktop.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 120px;
+    display: flex;
+    height: 580px;
+}
+.service-2-text{
+    padding-top: 90px;
+    margin-left: 40px;
+    width: 50%;
+}
+.service-2-text h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.service-2-text p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.service-2-text a{
+    color: hsl(170, 45%, 43%);
+}
+.service-2-text a:hover{
+    color: hsl(170, 60%, 72%);
+}
+.card{
+    background-color: white;
+    width: 270px;
+    height: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 25px;
+    position: relative;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content p{
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.2rem;
+}
+.card-profile{
+    text-align: left;
+    width:50%;
+    margin: 8px 0;
+}
+.card-profile img{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+.card-profile h5{
+    margin: 0;
+    font-size: 10px;
+    font-weight: 800;
+}
+.card-profile p{
+    margin-top: 0;
+    font-size: 6px;
+    font-weight: 500;
+}
+.service-2-img{
+    width: 50%;
+    padding-top:  90px;
+    margin-right: 45px;
+}
+.get-access{
+    
+    background-color: hsl(238, 22%, 44%);  
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.get-access-text{
+    width: 50%;
+    color: white;
+    padding: 50px 0 50px 50px;
+    
+}
+.get-access-text h3{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-right: 500px;
+} 
+.get-access-text p{
+    width: 100%;
+    font-size: 13px;
+    font-weight:100;
+    line-height: 1.5rem;
+}
+.get-access-form{
+    width:50%;
+    padding-left: 250px;
+    
+}
+.get-access-form form{
+    display: grid;
+    justify-items: start;
+}
+.get-access-form form input{
+    width: 85%;
+    height: 26px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6px 10px;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.get-access-form form button{
+    background-color:hsl(224, 93%, 58%);
+    color: white;
+    width: 35%;
+    font-size: 12px;
+    font-family:'Open Sans', sans-serif;
+    padding: 9px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.get-access-form form button:hover{
+    background-color:hsl(224, 78%, 67%);
+}
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px 200px 0 50px;
+    color: white;
+}
+.footer-details{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.footer-details a:hover{
+    color:hsl(238, 22%, 44%);
+}
+.list-1 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.list-1 ul li{
+    display: block;
+    margin: 15px 0;
+}
+.list-1 ul li img{
+    margin-right: 10px;
+}
+.list-2 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.list-2 ul li{
+    display: block;
+    margin: 15px 0;
+}
+.list-3 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.list-3 ul li{
+    display: block;
+    margin: 15px 0;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 0;
+    margin-top: 40px;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
